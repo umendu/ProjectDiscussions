@@ -1,0 +1,4319 @@
+{
+ "layers": [
+  {
+   "id": 0,
+   "objectIdFieldName": "OBJECTID",
+   "globalIdFieldName": "",
+   "geometryType": "esriGeometryPolygon",
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   },
+   "fields": [
+    {
+     "name": "OBJECTID",
+     "alias": "OBJECTID",
+     "type": "esriFieldTypeOID"
+    },
+    {
+     "name": "CLIENT_NAME",
+     "alias": "CLIENT_NAME",
+     "type": "esriFieldTypeString",
+     "length": 150
+    },
+    {
+     "name": "SEQUENCE_NUMBER",
+     "alias": "SEQUENCE_NUMBER",
+     "type": "esriFieldTypeInteger"
+    },
+    {
+     "name": "ALERT_ID",
+     "alias": "ALERT_ID",
+     "type": "esriFieldTypeDouble"
+    },
+    {
+     "name": "POLYGON_NUMBER",
+     "alias": "POLYGON_NUMBER",
+     "type": "esriFieldTypeInteger"
+    },
+    {
+     "name": "RECIPIENT_NAME",
+     "alias": "RECIPIENT_NAME",
+     "type": "esriFieldTypeString",
+     "length": 150
+    },
+    {
+     "name": "RECIPIENT_ID",
+     "alias": "RECIPIENT_ID",
+     "type": "esriFieldTypeInteger"
+    },
+    {
+     "name": "ISSUE_DATE_TIME",
+     "alias": "ISSUE_DATE_TIME",
+     "type": "esriFieldTypeDate",
+     "length": 36
+    },
+    {
+     "name": "START_DATE_TIME",
+     "alias": "START_DATE_TIME",
+     "type": "esriFieldTypeDate",
+     "length": 36
+    },
+    {
+     "name": "END_DATE_TIME",
+     "alias": "END_DATE_TIME",
+     "type": "esriFieldTypeDate",
+     "length": 36
+    },
+    {
+     "name": "DISPLAY_DATE_TIME",
+     "alias": "DISPLAY_DATE_TIME",
+     "type": "esriFieldTypeDate",
+     "length": 36
+    },
+    {
+     "name": "CLIENT_ID",
+     "alias": "CLIENT_ID",
+     "type": "esriFieldTypeInteger"
+    },
+    {
+     "name": "EVENT_TYPE",
+     "alias": "EVENT_TYPE",
+     "type": "esriFieldTypeString",
+     "length": 100
+    },
+    {
+     "name": "SEVERITY",
+     "alias": "SEVERITY",
+     "type": "esriFieldTypeInteger"
+    },
+    {
+     "name": "CLIENT_EVENT_TYPE",
+     "alias": "CLIENT_EVENT_TYPE",
+     "type": "esriFieldTypeString",
+     "length": 100
+    },
+    {
+     "name": "METEOROLOGIST_NAME",
+     "alias": "METEOROLOGIST_NAME",
+     "type": "esriFieldTypeString",
+     "length": 151
+    },
+    {
+     "name": "TEXT",
+     "alias": "TEXT",
+     "type": "esriFieldTypeString",
+     "length": 4000
+    },
+    {
+     "name": "CONTACT_PHONE_NUMBER",
+     "alias": "CONTACT_PHONE_NUMBER",
+     "type": "esriFieldTypeString",
+     "length": 50
+    }
+   ],
+   "features": [
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -111.10372022426892,
+         46.764284028370446
+        ],
+        [
+         -111.24418538414171,
+         47.405942458545612
+        ],
+        [
+         -11101812.444140816,
+         4744556.3150655227
+        ],
+        [
+         -11087326.99540134,
+         4684866.7269584378
+        ],
+        [
+         -11108506.41908069,
+         4677271.9496983439
+        ],
+        [
+         -11110152.500391051,
+         4676569.0129060401
+        ],
+        [
+         -11110372.022426892,
+         4676428.4028370446
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 93,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2423,
+      "ALERT_ID": 82012,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429322360000,
+      "START_DATE_TIME": 1429322360000,
+      "END_DATE_TIME": 1429326000000,
+      "DISPLAY_DATE_TIME": 1429326000000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Rich Putnam",
+      "TEXT": "A thunderstorm over the region will produce variable wind gusts to 60 mph and hail to 1 inch in diameter (Quarter Sized).",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10974279.380832994,
+         4554590.549774589
+        ],
+        [
+         -10994795.451666705,
+         4556347.3766172491
+        ],
+        [
+         -10994894.637332998,
+         4556472.8252662281
+        ],
+        [
+         -10998264.389638804,
+         4607802.3267128244
+        ],
+        [
+         -10975567.792619435,
+         4608306.7718035262
+        ],
+        [
+         -10974279.380832994,
+         4554715.9772321042
+        ],
+        [
+         -10974279.380832994,
+         4554590.549774589
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 120,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2443,
+      "ALERT_ID": 82362,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429382154000,
+      "START_DATE_TIME": 1429382154000,
+      "END_DATE_TIME": 1429384500000,
+      "DISPLAY_DATE_TIME": 1429384500000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect southerly wind gusts to 60 mph and hail up to 1 inch in diameter as storms move north. This replaces warning #2442.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11014126.860479392,
+         4555764.5535869235
+        ],
+        [
+         -11014032.238912215,
+         4556004.0215386068
+        ],
+        [
+         -11018384.051765796,
+         4606074.4245056994
+        ],
+        [
+         -10992462.529098149,
+         4615105.659817785
+        ],
+        [
+         -10987826.962862533,
+         4556004.0215386068
+        ],
+        [
+         -11014126.860479392,
+         4555764.5535869235
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 122,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2444,
+      "ALERT_ID": 82386,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429385472000,
+      "START_DATE_TIME": 1429385472000,
+      "END_DATE_TIME": 1429388100000,
+      "DISPLAY_DATE_TIME": 1429388100000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect southerly wind gusts to 60 mph and hail up to 1 inch in diameter as storms move northwest.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10983426.726030461,
+         4552340.5817364845
+        ],
+        [
+         -11023279.549012415,
+         4576012.3885949794
+        ],
+        [
+         -11016624.758533297,
+         4692617.2836702261
+        ],
+        [
+         -11016624.758533297,
+         4693017.3647166556
+        ],
+        [
+         -11018048.86877902,
+         4694553.4163689474
+        ],
+        [
+         -10955778.860699585,
+         4687204.0943431566
+        ],
+        [
+         -10955280.705978284,
+         4687204.0943431566
+        ],
+        [
+         -10967485.55230988,
+         4564011.9672384914
+        ],
+        [
+         -10983426.726030461,
+         4552340.5817364845
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 123,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2445,
+      "ALERT_ID": 82407,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429387391000,
+      "START_DATE_TIME": 1429387391000,
+      "END_DATE_TIME": 1429392600000,
+      "DISPLAY_DATE_TIME": 1429392600000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect hail to 1.5 inches as storms move over the area. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11312551.149522582,
+         4751703.969840792
+        ],
+        [
+         -11343850.739429435,
+         4788110.0904142931
+        ],
+        [
+         -11312085.722731574,
+         4804852.9212139202
+        ],
+        [
+         -11311853.064995814,
+         4806211.659566558
+        ],
+        [
+         -11284509.547152771,
+         4768536.734756453
+        ],
+        [
+         -11312551.149522582,
+         4751703.969840792
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 124,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2446,
+      "ALERT_ID": 82408,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429387440000,
+      "START_DATE_TIME": 1429387440000,
+      "END_DATE_TIME": 1429390800000,
+      "DISPLAY_DATE_TIME": 1429390800000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect hail to 1.5 inches as storms move over the area. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11054657.507840784,
+         4439041.9724454815
+        ],
+        [
+         -11086716.519313833,
+         4441067.7270619553
+        ],
+        [
+         -11055686.87917215,
+         4508320.5806521289
+        ],
+        [
+         -11054951.613935463,
+         4512769.9153365809
+        ],
+        [
+         -11015539.504817553,
+         4514809.901720007
+        ],
+        [
+         -11054657.507840784,
+         4439041.9724454815
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 125,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2447,
+      "ALERT_ID": 82409,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429387463000,
+      "START_DATE_TIME": 1429387463000,
+      "END_DATE_TIME": 1429392600000,
+      "DISPLAY_DATE_TIME": 1429392600000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect hail to 1.5 inches as storms move over the area. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11018133.137633547,
+         4447377.3428641893
+        ],
+        [
+         -11048427.401219051,
+         4451985.3408545172
+        ],
+        [
+         -11047398.029887686,
+         4471545.9916745955
+        ],
+        [
+         -11047545.082935026,
+         4471545.9916745955
+        ],
+        [
+         -11020044.938568432,
+         4515041.4116658475
+        ],
+        [
+         -11020044.938568432,
+         4515218.8733325694
+        ],
+        [
+         -11022839.057787346,
+         4515412.343672731
+        ],
+        [
+         -11020044.938568432,
+         4515412.343672731
+        ],
+        [
+         -10985338.74960432,
+         4512815.955236231
+        ],
+        [
+         -11018133.137633547,
+         4447377.3428641893
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 127,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2448,
+      "ALERT_ID": 82426,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429388420000,
+      "START_DATE_TIME": 1429388420000,
+      "END_DATE_TIME": 1429390800000,
+      "DISPLAY_DATE_TIME": 1429390800000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect hail to 1.5 inches as storms move over the area and wind gusts to 60 mph. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10901150.156426679,
+         4697644.9357129829
+        ],
+        [
+         -10928356.194698593,
+         4698022.6349768788
+        ],
+        [
+         -10956885.821716035,
+         4755577.8448734712
+        ],
+        [
+         -10962768.277568026,
+         4788288.0202427469
+        ],
+        [
+         -10960856.476633139,
+         4786764.3278961573
+        ],
+        [
+         -10896591.289320223,
+         4770588.4914530683
+        ],
+        [
+         -10901150.156426679,
+         4697644.9357129829
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 128,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2449,
+      "ALERT_ID": 82431,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429389065000,
+      "START_DATE_TIME": 1429389065000,
+      "END_DATE_TIME": 1429392650000,
+      "DISPLAY_DATE_TIME": 1429392650000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect hail up to 1 inch.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10989545.179202929,
+         4519634.482008459
+        ],
+        [
+         -11039129.997347996,
+         4522192.5230332892
+        ],
+        [
+         -11023225.447739886,
+         4578033.1604293948
+        ],
+        [
+         -11022133.960132662,
+         4579615.959272299
+        ],
+        [
+         -10978786.26173725,
+         4559649.5767795462
+        ],
+        [
+         -10978630.303130649,
+         4559254.6503664171
+        ],
+        [
+         -10989545.179202929,
+         4519634.482008459
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 129,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2450,
+      "ALERT_ID": 82432,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429389086000,
+      "START_DATE_TIME": 1429389086000,
+      "END_DATE_TIME": 1429392600000,
+      "DISPLAY_DATE_TIME": 1429392600000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect hail up to 1 inch.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11321771.965583969,
+         4766646.8290378321
+        ],
+        [
+         -11349319.754692616,
+         4805219.9227157729
+        ],
+        [
+         -11326736.48091488,
+         4823929.70085108
+        ],
+        [
+         -11299578.087385027,
+         4784528.3734809188
+        ],
+        [
+         -11299870.078409374,
+         4784276.281434536
+        ],
+        [
+         -11321771.965583969,
+         4766646.8290378321
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 132,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2452,
+      "ALERT_ID": 82445,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429390827000,
+      "START_DATE_TIME": 1429390827000,
+      "END_DATE_TIME": 1429393500000,
+      "DISPLAY_DATE_TIME": 1429393500000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect hail to 1 inch in diameter as storms move northwest. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11021618.773529267,
+         4454638.089490708
+        ],
+        [
+         -11038184.115634728,
+         4494757.7324235169
+        ],
+        [
+         -11017627.190547891,
+         4537553.3729310138
+        ],
+        [
+         -10973120.322294852,
+         4512861.5742388982
+        ],
+        [
+         -11021618.773529267,
+         4454638.089490708
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 134,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2453,
+      "ALERT_ID": 82446,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429390886000,
+      "START_DATE_TIME": 1429390886000,
+      "END_DATE_TIME": 1429393500000,
+      "DISPLAY_DATE_TIME": 1429393500000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail to 1 inch in diameter as storms move north. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11003240.704835732,
+         4551928.6029718975
+        ],
+        [
+         -11022872.564954072,
+         4552918.5630262839
+        ],
+        [
+         -11022872.564954072,
+         4596273.1103513101
+        ],
+        [
+         -10991195.601973427,
+         4596471.915105571
+        ],
+        [
+         -11003240.704835732,
+         4551928.6029718975
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 136,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2454,
+      "ALERT_ID": 82448,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429390920000,
+      "START_DATE_TIME": 1429390920000,
+      "END_DATE_TIME": 1429393500000,
+      "DISPLAY_DATE_TIME": 1429393500000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail to 1 inch in diameter as storms move north. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11013677.46369506,
+         4461563.5526116034
+        ],
+        [
+         -11019227.074269576,
+         4503787.1639189692
+        ],
+        [
+         -11019653.984516768,
+         4505938.6021061428
+        ],
+        [
+         -11019511.718207531,
+         4507014.5569431316
+        ],
+        [
+         -11019369.451898301,
+         4507373.2798665715
+        ],
+        [
+         -10964869.210317764,
+         4534847.5284238448
+        ],
+        [
+         -10944520.452678718,
+         4484443.4794737818
+        ],
+        [
+         -11013677.46369506,
+         4461563.5526116034
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 138,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2455,
+      "ALERT_ID": 82464,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429392273000,
+      "START_DATE_TIME": 1429392273000,
+      "END_DATE_TIME": 1429396200000,
+      "DISPLAY_DATE_TIME": 1429396200000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail up to 1 inch in diameter as storms move northeast. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10995432.533112513,
+         4562257.6522902716
+        ],
+        [
+         -11010609.721167775,
+         4568065.4581511803
+        ],
+        [
+         -11006264.921442116,
+         4596775.1527848449
+        ],
+        [
+         -11005669.696124841,
+         4598666.8040559627
+        ],
+        [
+         -11005610.251516761,
+         4598742.3810721245
+        ],
+        [
+         -11005074.582127063,
+         4608584.2908706693
+        ],
+        [
+         -10979124.561669771,
+         4603965.0452659586
+        ],
+        [
+         -10995373.088504428,
+         4562257.6522902716
+        ],
+        [
+         -10995432.533112513,
+         4562257.6522902716
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 140,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2456,
+      "ALERT_ID": 82473,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429393046000,
+      "START_DATE_TIME": 1429393200000,
+      "END_DATE_TIME": 1429395300000,
+      "DISPLAY_DATE_TIME": 1429395300000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail up to 1 inch as a storm moves north. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10979392.730323091,
+         4438588.6980486931
+        ],
+        [
+         -10979392.730323091,
+         4438729.3336947542
+        ],
+        [
+         -10968506.463359943,
+         4470624.5076665832
+        ],
+        [
+         -10947916.810342818,
+         4468306.4038972119
+        ],
+        [
+         -10949194.758097127,
+         4453162.5677067237
+        ],
+        [
+         -10949194.758097127,
+         4452984.4749465203
+        ],
+        [
+         -10949407.712283013,
+         4452361.313467606
+        ],
+        [
+         -10953028.712679539,
+         4438840.2824587775
+        ],
+        [
+         -10979392.730323091,
+         4438588.6980486931
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 142,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2457,
+      "ALERT_ID": 82486,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429393708000,
+      "START_DATE_TIME": 1429394100000,
+      "END_DATE_TIME": 1429397100000,
+      "DISPLAY_DATE_TIME": 1429397100000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail up to 1 inch in diameter as a storm moves northeast. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10981584.945055285,
+         4561884.6270522689
+        ],
+        [
+         -10998897.018304979,
+         4587154.8417947255
+        ],
+        [
+         -10999309.234379392,
+         4587503.7536707092
+        ],
+        [
+         -10999652.655008487,
+         4587503.7536707092
+        ],
+        [
+         -10982065.845255513,
+         4621411.5857533542
+        ],
+        [
+         -10948128.651333801,
+         4595795.7115668282
+        ],
+        [
+         -10981378.892677829,
+         4561884.6270522689
+        ],
+        [
+         -10981584.945055285,
+         4561884.6270522689
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 144,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2458,
+      "ALERT_ID": 82501,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429393938000,
+      "START_DATE_TIME": 1429393938000,
+      "END_DATE_TIME": 1429397100000,
+      "DISPLAY_DATE_TIME": 1429397100000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail up to 1 inch in diameter as a storm moves northeast. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11059462.836299863,
+         4792119.3235719576
+        ],
+        [
+         -11077539.229173344,
+         4849927.431520314
+        ],
+        [
+         -11077303.454491843,
+         4849927.431520314
+        ],
+        [
+         -11035727.628431387,
+         4861406.3655506056
+        ],
+        [
+         -11030383.290997896,
+         4801696.7726010354
+        ],
+        [
+         -11059462.836299863,
+         4792119.3235719576
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 150,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2461,
+      "ALERT_ID": 82514,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429394684000,
+      "START_DATE_TIME": 1429394684000,
+      "END_DATE_TIME": 1429398000000,
+      "DISPLAY_DATE_TIME": 1429398000000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail up to 1.5 inch in diameter as storms move north.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10941527.18289078,
+         4438368.7582323635
+        ],
+        [
+         -10953014.018506754,
+         4439087.9700082764
+        ],
+        [
+         -10952942.21743519,
+         4439087.9700082764
+        ],
+        [
+         -10952583.323396873,
+         4439447.4548077025
+        ],
+        [
+         -10949280.808063515,
+         4452130.6204466922
+        ],
+        [
+         -10949280.808063515,
+         4452220.6361809904
+        ],
+        [
+         -10945475.796548704,
+         4468073.4055478582
+        ],
+        [
+         -10936070.969369037,
+         4468704.4837722769
+        ],
+        [
+         -10941527.18289078,
+         4438368.7582323635
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 152,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2462,
+      "ALERT_ID": 82515,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429394760000,
+      "START_DATE_TIME": 1429395300000,
+      "END_DATE_TIME": 1429398900000,
+      "DISPLAY_DATE_TIME": 1429398900000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail up to 1.5 inch in diameter as storms move north.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11075600.377602194,
+         4731774.8428980624
+        ],
+        [
+         -11092046.38521352,
+         4785886.0895182872
+        ],
+        [
+         -11046624.24810718,
+         4805173.5593277989
+        ],
+        [
+         -11037813.867008347,
+         4742372.0543068592
+        ],
+        [
+         -11038205.488976955,
+         4742119.5798489023
+        ],
+        [
+         -11038596.999626074,
+         4742119.5798489023
+        ],
+        [
+         -11039771.754212419,
+         4741867.1116995551
+        ],
+        [
+         -11075600.377602194,
+         4731774.8428980624
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 154,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2463,
+      "ALERT_ID": 82519,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429394928000,
+      "START_DATE_TIME": 1429394928000,
+      "END_DATE_TIME": 1429398900000,
+      "DISPLAY_DATE_TIME": 1429398900000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail up to 1.5 inch in diameter as storms move north. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10949658.849054242,
+         4439508.6478899876
+        ],
+        [
+         -10958922.300480604,
+         4458401.1767318007
+        ],
+        [
+         -10958922.300480604,
+         4458506.7462346572
+        ],
+        [
+         -10933068.794021832,
+         4490140.5293325204
+        ],
+        [
+         -10909825.840941651,
+         4461570.8161467407
+        ],
+        [
+         -10949658.849054242,
+         4439508.6478899876
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 156,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2464,
+      "ALERT_ID": 82532,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429395552000,
+      "START_DATE_TIME": 1429395552000,
+      "END_DATE_TIME": 1429399800000,
+      "DISPLAY_DATE_TIME": 1429399800000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail up to 1.5 inch in diameter as a storm moves northeast. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10931715.70561124,
+         4830070.4160999693
+        ],
+        [
+         -10944077.846383328,
+         4865854.0723094819
+        ],
+        [
+         -10943724.629639041,
+         4866084.691454377
+        ],
+        [
+         -10940987.394679919,
+         4866661.0447768634
+        ],
+        [
+         -10919618.505227244,
+         4867237.4315820951
+        ],
+        [
+         -10915821.620035265,
+         4833401.6739943065
+        ],
+        [
+         -10931539.152898844,
+         4830070.4160999693
+        ],
+        [
+         -10931715.70561124,
+         4830070.4160999693
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 159,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2466,
+      "ALERT_ID": 82543,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429396427000,
+      "START_DATE_TIME": 1429396427000,
+      "END_DATE_TIME": 1429398600000,
+      "DISPLAY_DATE_TIME": 1429398600000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect hail up to 1 inch in diameter as a storm moves north. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11143347.749906618,
+         4806568.7435585987
+        ],
+        [
+         -11152842.857193325,
+         4849867.3672592575
+        ],
+        [
+         -11152966.199189123,
+         4849867.3672592575
+        ],
+        [
+         -11125590.510013239,
+         4860962.9245076692
+        ],
+        [
+         -11125467.168017441,
+         4860962.9245076692
+        ],
+        [
+         -11115232.120075434,
+         4810890.1521699699
+        ],
+        [
+         -11115478.804067036,
+         4810730.0292398874
+        ],
+        [
+         -11115602.146062834,
+         4810569.9088731725
+        ],
+        [
+         -11115887.680556718,
+         4812024.9596089311
+        ],
+        [
+         -11116711.890066553,
+         4813451.8895693682
+        ],
+        [
+         -11116835.232062351,
+         4813451.8895693682
+        ],
+        [
+         -11143347.749906618,
+         4806568.7435585987
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 161,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2467,
+      "ALERT_ID": 82593,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429398515000,
+      "START_DATE_TIME": 1429398515000,
+      "END_DATE_TIME": 1429401600000,
+      "DISPLAY_DATE_TIME": 1429401600000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect southerly wind gusts to 60 mph and hail up to 1 inch in diameter as storms move north. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11106490.311782928,
+         4819247.2721380908
+        ],
+        [
+         -11120451.33440128,
+         4859669.3169335071
+        ],
+        [
+         -11120868.003255317,
+         4859669.3169335071
+        ],
+        [
+         -11064607.243927887,
+         4876537.6429665396
+        ],
+        [
+         -11058356.097922392,
+         4879533.3776505291
+        ],
+        [
+         -11056689.088547762,
+         4880350.6328622987
+        ],
+        [
+         -11056480.698461,
+         4880350.6328622987
+        ],
+        [
+         -11044811.855477573,
+         4846629.5118681779
+        ],
+        [
+         -11080652.056094395,
+         4846358.0098576043
+        ],
+        [
+         -11106490.311782928,
+         4819247.2721380908
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 163,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2468,
+      "ALERT_ID": 82603,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429399090000,
+      "START_DATE_TIME": 1429399090000,
+      "END_DATE_TIME": 1429401600000,
+      "DISPLAY_DATE_TIME": 1429401600000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail up to 1 inch in diameter as storms move north. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10897842.409077248,
+         4462115.7352134101
+        ],
+        [
+         -10917782.624185082,
+         4463253.157553588
+        ],
+        [
+         -10917782.624185082,
+         4463367.0182940578
+        ],
+        [
+         -10919957.918354673,
+         4506224.3436170761
+        ],
+        [
+         -10893945.002385085,
+         4508166.2455971576
+        ],
+        [
+         -10896754.706332706,
+         4465187.1407019943
+        ],
+        [
+         -10897751.795011742,
+         4462115.7352134101
+        ],
+        [
+         -10897842.409077248,
+         4462115.7352134101
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 165,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2469,
+      "ALERT_ID": 82616,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429399772000,
+      "START_DATE_TIME": 1429400400000,
+      "END_DATE_TIME": 1429402978000,
+      "DISPLAY_DATE_TIME": 1429403578000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "CANCELLED",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10897842.409077248,
+         4462115.7352134101
+        ],
+        [
+         -10917782.624185082,
+         4463253.157553588
+        ],
+        [
+         -10917782.624185082,
+         4463367.0182940578
+        ],
+        [
+         -10919957.918354673,
+         4506224.3436170761
+        ],
+        [
+         -10893945.002385085,
+         4508166.2455971576
+        ],
+        [
+         -10896754.706332706,
+         4465187.1407019943
+        ],
+        [
+         -10897751.795011742,
+         4462115.7352134101
+        ],
+        [
+         -10897842.409077248,
+         4462115.7352134101
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 167,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2469,
+      "ALERT_ID": 82616,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429399772000,
+      "START_DATE_TIME": 1429400400000,
+      "END_DATE_TIME": 1429403400000,
+      "DISPLAY_DATE_TIME": 1429403400000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "CANCELLED",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10878572.003345514,
+         4438163.5966876652
+        ],
+        [
+         -10909997.718235439,
+         4439687.7686241642
+        ],
+        [
+         -10909887.066661591,
+         4439687.7686241642
+        ],
+        [
+         -10887756.306613918,
+         4472021.7947255522
+        ],
+        [
+         -10886981.745596979,
+         4472021.7947255522
+        ],
+        [
+         -10862195.236457463,
+         4453969.1868199082
+        ],
+        [
+         -10878572.003345514,
+         4438163.5966876652
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 169,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2470,
+      "ALERT_ID": 82636,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429400323000,
+      "START_DATE_TIME": 1429400323000,
+      "END_DATE_TIME": 1429402500000,
+      "DISPLAY_DATE_TIME": 1429402500000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail up to 1.5 inch in diameter as a storm moves northeast. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10880283.317877479,
+         4165287.7566905492
+        ],
+        [
+         -10893810.862398675,
+         4199731.0149916876
+        ],
+        [
+         -10893810.862398675,
+         4200638.77919487
+        ],
+        [
+         -10853042.993202401,
+         4252282.2686406914
+        ],
+        [
+         -10804677.56875948,
+         4193831.8195046443
+        ],
+        [
+         -10879727.388340456,
+         4165287.7566905492
+        ],
+        [
+         -10880283.317877479,
+         4165287.7566905492
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 171,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2471,
+      "ALERT_ID": 82660,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429400733000,
+      "START_DATE_TIME": 1429401900000,
+      "END_DATE_TIME": 1429404703000,
+      "DISPLAY_DATE_TIME": 1429405303000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "CANCELLED",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10880283.317877479,
+         4165287.7566905492
+        ],
+        [
+         -10893810.862398675,
+         4199731.0149916876
+        ],
+        [
+         -10893810.862398675,
+         4200638.77919487
+        ],
+        [
+         -10853042.993202401,
+         4252282.2686406914
+        ],
+        [
+         -10804677.56875948,
+         4193831.8195046443
+        ],
+        [
+         -10879727.388340456,
+         4165287.7566905492
+        ],
+        [
+         -10880283.317877479,
+         4165287.7566905492
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 173,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2471,
+      "ALERT_ID": 82660,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429400733000,
+      "START_DATE_TIME": 1429401900000,
+      "END_DATE_TIME": 1429405200000,
+      "DISPLAY_DATE_TIME": 1429405200000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "CANCELLED",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10844191.757850444,
+         4543050.0840693871
+        ],
+        [
+         -10860343.882006077,
+         4549524.9672701266
+        ],
+        [
+         -10845727.298906447,
+         4571714.2623479785
+        ],
+        [
+         -10845613.53038686,
+         4571786.3960793074
+        ],
+        [
+         -10828892.674952762,
+         4564793.0275058737
+        ],
+        [
+         -10844191.757850444,
+         4543050.0840693871
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 175,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2472,
+      "ALERT_ID": 82690,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429401790000,
+      "START_DATE_TIME": 1429401790000,
+      "END_DATE_TIME": 1429404300000,
+      "DISPLAY_DATE_TIME": 1429404300000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail up to 1 inch in diameter as a storm intensifies and moves north. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10856727.445708675,
+         4432564.999548845
+        ],
+        [
+         -10876363.981245628,
+         4438445.1373217907
+        ],
+        [
+         -10878712.933820855,
+         4457519.5170784043
+        ],
+        [
+         -10879088.748421773,
+         4459758.8586567948
+        ],
+        [
+         -10879182.702072008,
+         4459876.7318912372
+        ],
+        [
+         -10847801.737617383,
+         4469782.925217635
+        ],
+        [
+         -10848741.274119679,
+         4433623.1837767093
+        ],
+        [
+         -10856727.445708675,
+         4432564.999548845
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 177,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2473,
+      "ALERT_ID": 82692,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429401925000,
+      "START_DATE_TIME": 1429401925000,
+      "END_DATE_TIME": 1429405200000,
+      "DISPLAY_DATE_TIME": 1429405200000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail up to 2 inches in diameter as a storm moves east. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10913407.545557924,
+         4434139.3585401112
+        ],
+        [
+         -10924071.507497957,
+         4453748.6480548223
+        ],
+        [
+         -10924169.357330363,
+         4453748.6480548223
+        ],
+        [
+         -10923582.369655412,
+         4454484.6792321717
+        ],
+        [
+         -10892862.42033712,
+         4475483.7932688976
+        ],
+        [
+         -10889535.971313236,
+         4474623.3616770739
+        ],
+        [
+         -10869479.983934971,
+         4448229.837226456
+        ],
+        [
+         -10869479.983934971,
+         4447984.5863530524
+        ],
+        [
+         -10913407.545557924,
+         4434139.3585401112
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 180,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2475,
+      "ALERT_ID": 82754,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429403595000,
+      "START_DATE_TIME": 1429403595000,
+      "END_DATE_TIME": 1429406100000,
+      "DISPLAY_DATE_TIME": 1429406100000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail up to 1.5 inch as a storm moves east-northeast. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10861408.541616024,
+         4448438.8211248489
+        ],
+        [
+         -10869532.304095645,
+         4467800.2994579161
+        ],
+        [
+         -10869667.668596448,
+         4468140.2155859955
+        ],
+        [
+         -10869667.668596448,
+         4468225.1963296747
+        ],
+        [
+         -10841031.731465301,
+         4481238.2677784404
+        ],
+        [
+         -10829861.59980063,
+         4455737.571569453
+        ],
+        [
+         -10861408.541616024,
+         4448438.8211248489
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 182,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2476,
+      "ALERT_ID": 82821,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429404831000,
+      "START_DATE_TIME": 1429405200000,
+      "END_DATE_TIME": 1429408800000,
+      "DISPLAY_DATE_TIME": 1429408800000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": null,
+      "TEXT": "EXTENDED:  Expect wind gusts to 60 mph and hail up to 2 inches in diameter as a storm moves northeast. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10861408.541616024,
+         4448438.8211248489
+        ],
+        [
+         -10869532.304095645,
+         4467800.2994579161
+        ],
+        [
+         -10869667.668596448,
+         4468140.2155859955
+        ],
+        [
+         -10869667.668596448,
+         4468225.1963296747
+        ],
+        [
+         -10841031.731465301,
+         4481238.2677784404
+        ],
+        [
+         -10829861.59980063,
+         4455737.571569453
+        ],
+        [
+         -10861408.541616024,
+         4448438.8211248489
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 184,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2476,
+      "ALERT_ID": 82821,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429404831000,
+      "START_DATE_TIME": 1429405200000,
+      "END_DATE_TIME": 1429410600000,
+      "DISPLAY_DATE_TIME": 1429410600000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": null,
+      "TEXT": "EXTENDED:  Expect wind gusts to 60 mph and hail up to 2 inches in diameter as a storm moves northeast. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10834965.821092479,
+         4461543.1588666094
+        ],
+        [
+         -10837185.086460939,
+         4463722.5790644856
+        ],
+        [
+         -10837233.28780045,
+         4463904.3457979811
+        ],
+        [
+         -10837281.489139961,
+         4464025.339071501
+        ],
+        [
+         -10841092.734546252,
+         4481538.7323981375
+        ],
+        [
+         -10841189.248544767,
+         4481599.3301680693
+        ],
+        [
+         -10824738.342875851,
+         4491489.9806857565
+        ],
+        [
+         -10814414.239341207,
+         4468325.2732149903
+        ],
+        [
+         -10834965.821092479,
+         4461543.1588666094
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 187,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2478,
+      "ALERT_ID": 82839,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429405752000,
+      "START_DATE_TIME": 1429406100000,
+      "END_DATE_TIME": 1429408800000,
+      "DISPLAY_DATE_TIME": 1429408800000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect southwesterly wind gusts to 60 mph and hail up to 2 inches in diameter as a storm moves northeast. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10815998.427014684,
+         4471417.5019682292
+        ],
+        [
+         -10815844.138200451,
+         4471740.4768971913
+        ],
+        [
+         -10824586.614409897,
+         4491653.7363660093
+        ],
+        [
+         -10810135.786032058,
+         4498709.9825944724
+        ],
+        [
+         -10800416.147332426,
+         4477426.1766691143
+        ],
+        [
+         -10815998.427014684,
+         4471417.5019682292
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 190,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2480,
+      "ALERT_ID": 82909,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429408735000,
+      "START_DATE_TIME": 1429408735000,
+      "END_DATE_TIME": 1429410600000,
+      "DISPLAY_DATE_TIME": 1429410600000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": null,
+      "TEXT": "EXTENDED: Expect southwesterly wind gusts to 60 mph and hail up to 1.75 as storms move northeast.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10815998.427014684,
+         4471417.5019682292
+        ],
+        [
+         -10815844.138200451,
+         4471740.4768971913
+        ],
+        [
+         -10824586.614409897,
+         4491653.7363660093
+        ],
+        [
+         -10810135.786032058,
+         4498709.9825944724
+        ],
+        [
+         -10800416.147332426,
+         4477426.1766691143
+        ],
+        [
+         -10815998.427014684,
+         4471417.5019682292
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 192,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2480,
+      "ALERT_ID": 82909,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429408735000,
+      "START_DATE_TIME": 1429408735000,
+      "END_DATE_TIME": 1429412400000,
+      "DISPLAY_DATE_TIME": 1429412400000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": null,
+      "TEXT": "EXTENDED: Expect southwesterly wind gusts to 60 mph and hail up to 1.75 as storms move northeast.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10800475.591940511,
+         4477450.5181834903
+        ],
+        [
+         -10802474.11075872,
+         4483947.9375254549
+        ],
+        [
+         -10810192.781611346,
+         4498603.7288885191
+        ],
+        [
+         -10810123.874846542,
+         4498864.0383610288
+        ],
+        [
+         -10799097.234005509,
+         4505548.5080826245
+        ],
+        [
+         -10790000.316537371,
+         4482821.4363483787
+        ],
+        [
+         -10800475.591940511,
+         4477450.5181834903
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 194,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2481,
+      "ALERT_ID": 82923,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429409030000,
+      "START_DATE_TIME": 1429409700000,
+      "END_DATE_TIME": 1429412100000,
+      "DISPLAY_DATE_TIME": 1429412100000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": null,
+      "TEXT": "Storms moving northeast will produce wind gusts to 60 mph and hail up to 1.75 inch.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10833592.13857609,
+         4464544.5361159546
+        ],
+        [
+         -10833758.895173302,
+         4464614.3977324739
+        ],
+        [
+         -10833647.019085053,
+         4464672.1037764875
+        ],
+        [
+         -10840651.241445767,
+         4480952.3655341202
+        ],
+        [
+         -10824420.859688107,
+         4491508.7515238738
+        ],
+        [
+         -10816861.375707319,
+         4473338.7192720557
+        ],
+        [
+         -10833592.13857609,
+         4464544.5361159546
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 196,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2482,
+      "ALERT_ID": 82935,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429409546000,
+      "START_DATE_TIME": 1429409546000,
+      "END_DATE_TIME": 1429412100000,
+      "DISPLAY_DATE_TIME": 1429412100000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": null,
+      "TEXT": "Expect southwesterly wind gusts to 60 mph and hail up to 1.75 as storms move northeast.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10790306.22249807,
+         4482600.713358108
+        ],
+        [
+         -10793768.481300727,
+         4492044.2948604552
+        ],
+        [
+         -10799007.621815419,
+         4505511.196721619
+        ],
+        [
+         -10784002.088414958,
+         4512002.2859811503
+        ],
+        [
+         -10774856.746968327,
+         4490865.099012888
+        ],
+        [
+         -10790306.22249807,
+         4482600.713358108
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 198,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2483,
+      "ALERT_ID": 82947,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429410038000,
+      "START_DATE_TIME": 1429410600000,
+      "END_DATE_TIME": 1429412400000,
+      "DISPLAY_DATE_TIME": 1429412400000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": null,
+      "TEXT": "Expect southwesterly wind gusts to 60 mph and hail up to 1.75 as storms move northeast.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10798972.66749531,
+         4505591.7108770665
+        ],
+        [
+         -10799034.00453474,
+         4505669.1397073967
+        ],
+        [
+         -10802286.9826947,
+         4514024.855778886
+        ],
+        [
+         -10802164.197296357,
+         4514102.3469653791
+        ],
+        [
+         -10787924.987270512,
+         4523084.5429229112
+        ],
+        [
+         -10783996.967718383,
+         4512399.6383827077
+        ],
+        [
+         -10784058.304757806,
+         4512322.300156394
+        ],
+        [
+         -10798788.545057541,
+         4505669.1397073967
+        ],
+        [
+         -10798972.66749531,
+         4505591.7108770665
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 200,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2484,
+      "ALERT_ID": 82959,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429411444000,
+      "START_DATE_TIME": 1429411444000,
+      "END_DATE_TIME": 1429413900000,
+      "DISPLAY_DATE_TIME": 1429413900000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": null,
+      "TEXT": "Expect southwesterly wind gusts to 60 mph and hail up to 1.75 as storms move northeast.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10775164.2114019,
+         4491079.2719350467
+        ],
+        [
+         -10788410.228930883,
+         4522926.3369615525
+        ],
+        [
+         -10775070.257751668,
+         4491670.4062490389
+        ],
+        [
+         -10788128.479299681,
+         4522570.7335441988
+        ],
+        [
+         -10770466.974168388,
+         4530755.0656760093
+        ],
+        [
+         -10756375.485106828,
+         4502078.6987183113
+        ],
+        [
+         -10775164.2114019,
+         4491079.2719350467
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 202,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2485,
+      "ALERT_ID": 82962,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429411530000,
+      "START_DATE_TIME": 1429411530000,
+      "END_DATE_TIME": 1429414200000,
+      "DISPLAY_DATE_TIME": 1429414200000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": null,
+      "TEXT": "Expect southwesterly wind gusts to 60 mph and hail up to 1.75 as storms move northeast.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10757452.167221783,
+         4503161.2693324741
+        ],
+        [
+         -10770290.198817007,
+         4531351.9590013251
+        ],
+        [
+         -10770527.977249341,
+         4531652.3168183295
+        ],
+        [
+         -10748774.701594952,
+         4548483.357582177
+        ],
+        [
+         -10734629.11126087,
+         4510501.5780276721
+        ],
+        [
+         -10757452.167221783,
+         4503161.2693324741
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 204,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2486,
+      "ALERT_ID": 82970,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429413388000,
+      "START_DATE_TIME": 1429413388000,
+      "END_DATE_TIME": 1429414325000,
+      "DISPLAY_DATE_TIME": 1429414925000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": null,
+      "TEXT": "Cancelled.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10757452.167221783,
+         4503161.2693324741
+        ],
+        [
+         -10770290.198817007,
+         4531351.9590013251
+        ],
+        [
+         -10770527.977249341,
+         4531652.3168183295
+        ],
+        [
+         -10748774.701594952,
+         4548483.357582177
+        ],
+        [
+         -10734629.11126087,
+         4510501.5780276721
+        ],
+        [
+         -10757452.167221783,
+         4503161.2693324741
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 206,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2486,
+      "ALERT_ID": 82970,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429413388000,
+      "START_DATE_TIME": 1429413388000,
+      "END_DATE_TIME": 1429415700000,
+      "DISPLAY_DATE_TIME": 1429415700000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": null,
+      "TEXT": "Cancelled.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -9523739.1050130483,
+         4126103.230221028
+        ],
+        [
+         -9530350.1469322816,
+         4161768.2977859187
+        ],
+        [
+         -9530418.9423775952,
+         4161768.2977859187
+        ],
+        [
+         -9505214.5398696326,
+         4171606.7984323553
+        ],
+        [
+         -9494747.0568308532,
+         4140187.7578840046
+        ],
+        [
+         -9523739.1050130483,
+         4126103.230221028
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 310,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2570,
+      "ALERT_ID": 84096,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429483349000,
+      "START_DATE_TIME": 1429484400000,
+      "END_DATE_TIME": 1429486513000,
+      "DISPLAY_DATE_TIME": 1429487113000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "CANCELLED",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -9523739.1050130483,
+         4126103.230221028
+        ],
+        [
+         -9530350.1469322816,
+         4161768.2977859187
+        ],
+        [
+         -9530418.9423775952,
+         4161768.2977859187
+        ],
+        [
+         -9505214.5398696326,
+         4171606.7984323553
+        ],
+        [
+         -9494747.0568308532,
+         4140187.7578840046
+        ],
+        [
+         -9523739.1050130483,
+         4126103.230221028
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 312,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2570,
+      "ALERT_ID": 84096,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429483349000,
+      "START_DATE_TIME": 1429484400000,
+      "END_DATE_TIME": 1429487100000,
+      "DISPLAY_DATE_TIME": 1429487100000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "CANCELLED",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -9930676.0752086565,
+         4136123.530224984
+        ],
+        [
+         -9930960.6078271214,
+         4139415.2293149098
+        ],
+        [
+         -9930960.6078271214,
+         4139934.9885741472
+        ],
+        [
+         -9916024.649108408,
+         4182469.5966423857
+        ],
+        [
+         -9876479.735837983,
+         4192563.0062919129
+        ],
+        [
+         -9876052.9369102828,
+         4138895.3586477432
+        ],
+        [
+         -9876622.0021472182,
+         4138895.3586477432
+        ],
+        [
+         -9930676.0752086565,
+         4136123.530224984
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 330,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2584,
+      "ALERT_ID": 84650,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429502351000,
+      "START_DATE_TIME": 1429502351000,
+      "END_DATE_TIME": 1429504800000,
+      "DISPLAY_DATE_TIME": 1429504800000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "John Lavin",
+      "TEXT": "Westerly winds will gust to 60 mph as storms move eastward. Hail up to 1 inch will also occur.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -9450863.2437677793,
+         4005666.5606225394
+        ],
+        [
+         -9460442.9538674895,
+         4023331.0714834463
+        ],
+        [
+         -9432550.8535738159,
+         4038269.1612877129
+        ],
+        [
+         -9432485.6203522123,
+         4038269.1612877129
+        ],
+        [
+         -9420168.7866128776,
+         4025531.2736547776
+        ],
+        [
+         -9450863.2437677793,
+         4005666.5606225394
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 355,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2606,
+      "ALERT_ID": 85171,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429550276000,
+      "START_DATE_TIME": 1429550276000,
+      "END_DATE_TIME": 1429551900000,
+      "DISPLAY_DATE_TIME": 1429551900000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect southwesterly wind gusts to 60 mph and hail up to 1 inch in diameter as a storm develops and moves northeast. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -9252971.4755405039,
+         4128216.64858947
+        ],
+        [
+         -9256127.3831044976,
+         4142997.2183067659
+        ],
+        [
+         -9256127.3831044976,
+         4143588.9022664949
+        ],
+        [
+         -9213157.614380328,
+         4174545.5345015037
+        ],
+        [
+         -9203325.5429949947,
+         4144476.4870219496
+        ],
+        [
+         -9226024.2550846823,
+         4138117.4961566823
+        ],
+        [
+         -9252971.4755405039,
+         4128216.64858947
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 357,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2607,
+      "ALERT_ID": 85226,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429551086000,
+      "START_DATE_TIME": 1429551086000,
+      "END_DATE_TIME": 1429553700000,
+      "DISPLAY_DATE_TIME": 1429553700000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect southwesterly wind gusts to 60 mph and hail up to 1 inch in diameter as a storm moves northeast. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -9207246.3267802205,
+         4141736.3660095884
+        ],
+        [
+         -9208988.588130625,
+         4163135.5076799649
+        ],
+        [
+         -9177005.2739113215,
+         4174078.7012881408
+        ],
+        [
+         -9175387.3564321361,
+         4147954.5244625169
+        ],
+        [
+         -9207246.3267802205,
+         4141736.3660095884
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 359,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2608,
+      "ALERT_ID": 85251,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429552164000,
+      "START_DATE_TIME": 1429552800000,
+      "END_DATE_TIME": 1429555500000,
+      "DISPLAY_DATE_TIME": 1429555500000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail up to 1 inch in diameter as a storm moves east. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -9427122.8038832452,
+         4014525.5130167669
+        ],
+        [
+         -9430707.9594037291,
+         4027574.5449398197
+        ],
+        [
+         -9431410.8306686021,
+         4029609.4537033471
+        ],
+        [
+         -9431551.4271854721,
+         4030118.2712007375
+        ],
+        [
+         -9431621.7811036538,
+         4030118.2712007375
+        ],
+        [
+         -9402238.4449113142,
+         4043779.4281055247
+        ],
+        [
+         -9394435.6165236533,
+         4026557.1595349945
+        ],
+        [
+         -9427122.8038832452,
+         4014525.5130167669
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 361,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2609,
+      "ALERT_ID": 85255,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429552493000,
+      "START_DATE_TIME": 1429552493000,
+      "END_DATE_TIME": 1429555200000,
+      "DISPLAY_DATE_TIME": 1429555200000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 60 mph and hail up to 1 inch in diameter as a storm moves east-northeast. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -9393667.6233566664,
+         4022786.8579920745
+        ],
+        [
+         -9400288.684030069,
+         4039409.3591054049
+        ],
+        [
+         -9400489.6157109495,
+         4040162.6995509928
+        ],
+        [
+         -9400431.2842977773,
+         4040021.9736502091
+        ],
+        [
+         -9400203.7472585943,
+         4039441.6153016542
+        ],
+        [
+         -9372432.5399319269,
+         4050002.1023230976
+        ],
+        [
+         -9368821.5582895745,
+         4028915.3552766633
+        ],
+        [
+         -9393667.6233566664,
+         4022786.8579920745
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 363,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2610,
+      "ALERT_ID": 85277,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429553095000,
+      "START_DATE_TIME": 1429554000000,
+      "END_DATE_TIME": 1429555954000,
+      "DISPLAY_DATE_TIME": 1429556554000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "CANCELLED",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -9277868.4136148933,
+         4103548.7647273964
+        ],
+        [
+         -9278499.4838082008,
+         4132701.7549701426
+        ],
+        [
+         -9278499.4838082008,
+         4132893.7836222132
+        ],
+        [
+         -9236063.3807228953,
+         4149037.6130508156
+        ],
+        [
+         -9232908.2523953412,
+         4111979.9895969788
+        ],
+        [
+         -9277868.4136148933,
+         4103548.7647273964
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 365,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2611,
+      "ALERT_ID": 85278,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429553138000,
+      "START_DATE_TIME": 1429553138000,
+      "END_DATE_TIME": 1429555500000,
+      "DISPLAY_DATE_TIME": 1429555500000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect southwesterly wind gusts to 60 mph and hail up to 1 inch in diameter as a storm moves east-northeast. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11060329.903813651,
+         4697452.4473856622
+        ],
+        [
+         -11083713.676049685,
+         4704157.6750917099
+        ],
+        [
+         -11085756.945303194,
+         4735994.8086068546
+        ],
+        [
+         -11065097.494965343,
+         4801149.7175046755
+        ],
+        [
+         -11063962.258798232,
+         4803211.0394871794
+        ],
+        [
+         -11016059.478159053,
+         4772042.0722982297
+        ],
+        [
+         -11060329.903813651,
+         4697452.4473856622
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 373,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2739,
+      "ALERT_ID": 88209,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429908306000,
+      "START_DATE_TIME": 1429909200000,
+      "END_DATE_TIME": 1429912800000,
+      "DISPLAY_DATE_TIME": 1429912800000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect wind gusts to 60 mph from the southwest and hail up to 1 inch.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11060329.903813651,
+         4697452.4473856622
+        ],
+        [
+         -11083713.676049685,
+         4704157.6750917099
+        ],
+        [
+         -11085756.945303194,
+         4735994.8086068546
+        ],
+        [
+         -11065097.494965343,
+         4801149.7175046755
+        ],
+        [
+         -11063962.258798232,
+         4803211.0394871794
+        ],
+        [
+         -11016059.478159053,
+         4772042.0722982297
+        ],
+        [
+         -11060329.903813651,
+         4697452.4473856622
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 375,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2739,
+      "ALERT_ID": 88209,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429908306000,
+      "START_DATE_TIME": 1429909200000,
+      "END_DATE_TIME": 1429916400000,
+      "DISPLAY_DATE_TIME": 1429916400000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect wind gusts to 60 mph from the southwest and hail up to 1 inch.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11270238.499752564,
+         4797063.4146069717
+        ],
+        [
+         -11279177.009585306,
+         4816227.4122104598
+        ],
+        [
+         -11244783.071792871,
+         4846308.2642986402
+        ],
+        [
+         -11244783.071792871,
+         4848080.5488533359
+        ],
+        [
+         -11226128.596803697,
+         4851626.0655385824
+        ],
+        [
+         -11225934.344292261,
+         4851626.0655385824
+        ],
+        [
+         -11229626.36652391,
+         4816227.4122104598
+        ],
+        [
+         -11270238.499752564,
+         4797063.4146069717
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 381,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2744,
+      "ALERT_ID": 88287,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429911897000,
+      "START_DATE_TIME": 1429911897000,
+      "END_DATE_TIME": 1429916400000,
+      "DISPLAY_DATE_TIME": 1429916400000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect wind gusts to 60 mph and hail to 2 inches.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11334709.182845492,
+         4776175.0861251596
+        ],
+        [
+         -11356050.465064453,
+         4811028.310837606
+        ],
+        [
+         -11356050.465064453,
+         4811478.7849377468
+        ],
+        [
+         -11325166.319497237,
+         4832675.7492870623
+        ],
+        [
+         -11324992.772411091,
+         4833127.3458746839
+        ],
+        [
+         -11320134.678513385,
+         4834481.823817729
+        ],
+        [
+         -11310938.798017936,
+         4786730.5924356077
+        ],
+        [
+         -11334709.182845492,
+         4776175.0861251596
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 385,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2747,
+      "ALERT_ID": 88343,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429913563000,
+      "START_DATE_TIME": 1429913563000,
+      "END_DATE_TIME": 1429916400000,
+      "DISPLAY_DATE_TIME": 1429916400000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect wind gusts to 60 mph and hail to 1.5 inches. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11038479.557563288,
+         4717485.7766827848
+        ],
+        [
+         -11049324.636314847,
+         4751090.3847380234
+        ],
+        [
+         -11049187.379382696,
+         4751444.653391731
+        ],
+        [
+         -11048638.240334613,
+         4751090.3847380234
+        ],
+        [
+         -10991255.269220494,
+         4775212.954729679
+        ],
+        [
+         -10990706.130172411,
+         4775745.7806777153
+        ],
+        [
+         -10974644.397443302,
+         4726318.2435891042
+        ],
+        [
+         -10975330.793423533,
+         4724374.4688796485
+        ],
+        [
+         -10975468.161675174,
+         4724021.0041896515
+        ],
+        [
+         -11038342.189311653,
+         4717662.3219842464
+        ],
+        [
+         -11038479.557563288,
+         4717485.7766827848
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 387,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2748,
+      "ALERT_ID": 88344,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429913619000,
+      "START_DATE_TIME": 1429913619000,
+      "END_DATE_TIME": 1429916400000,
+      "DISPLAY_DATE_TIME": 1429916400000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect wind gusts to 60 mph and hail to 2 inches. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11268242.429963155,
+         4591872.9343352355
+        ],
+        [
+         -11342145.213510994,
+         4651406.6873579184
+        ],
+        [
+         -11330097.438980909,
+         4699585.8846049188
+        ],
+        [
+         -11330097.438980909,
+         4699963.0842191204
+        ],
+        [
+         -11328628.244341422,
+         4701283.7504612347
+        ],
+        [
+         -11211382.771775255,
+         4687708.1795432335
+        ],
+        [
+         -11239592.243937181,
+         4611305.1949555101
+        ],
+        [
+         -11268242.429963155,
+         4591872.9343352355
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 391,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2751,
+      "ALERT_ID": 88372,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429915076000,
+      "START_DATE_TIME": 1429915500000,
+      "END_DATE_TIME": 1429918200000,
+      "DISPLAY_DATE_TIME": 1429918200000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": " Expect wind gusts to 60 mph and hail to 1.5 inch. \u003cbr /\u003e\u003cbr /\u003e",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11085174.855685838,
+         4800343.6994745266
+        ],
+        [
+         -11088701.123195697,
+         4856519.5853206823
+        ],
+        [
+         -11088847.953604048,
+         4856902.7212429745
+        ],
+        [
+         -11088554.181467846,
+         4859010.741230078
+        ],
+        [
+         -11047121.623592047,
+         4852688.022439965
+        ],
+        [
+         -11049031.643415079,
+         4801868.1575812101
+        ],
+        [
+         -11049178.47382343,
+         4801677.5695804097
+        ],
+        [
+         -11085174.855685838,
+         4800343.6994745266
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 394,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2753,
+      "ALERT_ID": 88380,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429915155000,
+      "START_DATE_TIME": 1429915155000,
+      "END_DATE_TIME": 1429918500000,
+      "DISPLAY_DATE_TIME": 1429918500000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect wind gusts to 60 mph from the south and hail to 1.5 inch.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11166263.535003362,
+         4704026.6930393688
+        ],
+        [
+         -11187247.147698402,
+         4712617.4585593734
+        ],
+        [
+         -11166820.577735292,
+         4747053.3762560897
+        ],
+        [
+         -11167563.412697352,
+         4748251.0820216723
+        ],
+        [
+         -11164592.295488084,
+         4757359.0133519797
+        ],
+        [
+         -11134138.177113803,
+         4742263.5426240722
+        ],
+        [
+         -11166263.535003362,
+         4704026.6930393688
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 396,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2754,
+      "ALERT_ID": 88388,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429915502000,
+      "START_DATE_TIME": 1429916400000,
+      "END_DATE_TIME": 1429918200000,
+      "DISPLAY_DATE_TIME": 1429918200000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect wind gusts to 60 mph from the south and hail up to 1.5 inch.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10960108.298335522,
+         4708132.9828596925
+        ],
+        [
+         -11007142.898266001,
+         4708577.4501660774
+        ],
+        [
+         -11009794.417217204,
+         4766967.4002063116
+        ],
+        [
+         -11008692.799536319,
+         4766397.7747318624
+        ],
+        [
+         -10956419.281730123,
+         4774122.189676702
+        ],
+        [
+         -10959993.082662549,
+         4708132.9828596925
+        ],
+        [
+         -10960108.298335522,
+         4708132.9828596925
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 398,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2755,
+      "ALERT_ID": 88393,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429915944000,
+      "START_DATE_TIME": 1429915944000,
+      "END_DATE_TIME": 1429918800000,
+      "DISPLAY_DATE_TIME": 1429918800000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect wind gusts to 70 mph and hail to 2 inches",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10964194.057606107,
+         4719234.6127969855
+        ],
+        [
+         -10955897.304637788,
+         4773744.0854081046
+        ],
+        [
+         -10957667.284541406,
+         4774459.4142361321
+        ],
+        [
+         -10931560.303602092,
+         4777321.6706816107
+        ],
+        [
+         -10932555.833808256,
+         4721084.8727067159
+        ],
+        [
+         -10932555.833808256,
+         4720800.1292474605
+        ],
+        [
+         -10964194.057606107,
+         4719234.6127969855
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 405,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2761,
+      "ALERT_ID": 88445,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429917264000,
+      "START_DATE_TIME": 1429918200000,
+      "END_DATE_TIME": 1429920900000,
+      "DISPLAY_DATE_TIME": 1429920900000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect hail to 2 inches and wind gusts to 70 mph. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11095640.001015309,
+         4541002.7457397487
+        ],
+        [
+         -11070984.069638493,
+         4597220.0495570954
+        ],
+        [
+         -11072456.04726525,
+         4596518.3270153329
+        ],
+        [
+         -11030872.206201458,
+         4630018.3306977907
+        ],
+        [
+         -10980824.298974693,
+         4633773.3118024729
+        ],
+        [
+         -11009344.241196442,
+         4552175.3092262056
+        ],
+        [
+         -11095640.001015309,
+         4541002.7457397487
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 411,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2766,
+      "ALERT_ID": 88556,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429919779000,
+      "START_DATE_TIME": 1429920000000,
+      "END_DATE_TIME": 1429922700000,
+      "DISPLAY_DATE_TIME": 1429922700000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect wind gusts to 60 mph from the south and hail up to 1.5 inch. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11200643.223900974,
+         4677725.0551362187
+        ],
+        [
+         -11195957.786533488,
+         4713807.3747761156
+        ],
+        [
+         -11199949.146875877,
+         4716708.3266426018
+        ],
+        [
+         -11156565.047006978,
+         4723182.8822424384
+        ],
+        [
+         -11158126.970782299,
+         4686844.9256566856
+        ],
+        [
+         -11158300.406548951,
+         4686622.3787579183
+        ],
+        [
+         -11200643.223900974,
+         4677725.0551362187
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 413,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2767,
+      "ALERT_ID": 88560,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429920022000,
+      "START_DATE_TIME": 1429920022000,
+      "END_DATE_TIME": 1429922700000,
+      "DISPLAY_DATE_TIME": 1429922700000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect wind gusts to 60 mph from the south and hail up to 1.5 inch. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -11104887.756393472,
+         4664985.7280227672
+        ],
+        [
+         -11100569.005428657,
+         4692520.0153600248
+        ],
+        [
+         -11113946.713915249,
+         4697927.6014920007
+        ],
+        [
+         -11107590.482310439,
+         4713489.2009282792
+        ],
+        [
+         -11103340.081512976,
+         4731290.3586317208
+        ],
+        [
+         -11106573.133484079,
+         4734640.2121391371
+        ],
+        [
+         -11065913.244193872,
+         4726771.6775017176
+        ],
+        [
+         -11065807.935955584,
+         4726636.1037934758
+        ],
+        [
+         -11081608.401839802,
+         4667547.083806403
+        ],
+        [
+         -11081608.401839802,
+         4666468.5549717704
+        ],
+        [
+         -11104887.756393472,
+         4664985.7280227672
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 415,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2768,
+      "ALERT_ID": 88562,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429920159000,
+      "START_DATE_TIME": 1429920159000,
+      "END_DATE_TIME": 1429922700000,
+      "DISPLAY_DATE_TIME": 1429922700000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect wind gusts to 60 mph from the south and hail up to 1.5 inch. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10911869.555473128,
+         4757815.7112495648
+        ],
+        [
+         -10914392.723051444,
+         4819914.2170488266
+        ],
+        [
+         -10914392.723051444,
+         4820187.4589114971
+        ],
+        [
+         -10915023.45928628,
+         4817728.8403946655
+        ],
+        [
+         -10909977.235449133,
+         4854123.8327047061
+        ],
+        [
+         -10744082.696377508,
+         4877728.553613943
+        ],
+        [
+         -10719272.030908486,
+         4818275.2120554782
+        ],
+        [
+         -10911869.555473128,
+         4757815.7112495648
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 423,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2775,
+      "ALERT_ID": 88625,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429923544000,
+      "START_DATE_TIME": 1429923544000,
+      "END_DATE_TIME": 1429927200000,
+      "DISPLAY_DATE_TIME": 1429927200000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Phil Warren",
+      "TEXT": "Expect hail up to 1.5 inch.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10902971.454615545,
+         4506155.1870042887
+        ],
+        [
+         -10905150.199689355,
+         4517725.9813043382
+        ],
+        [
+         -10871214.23028204,
+         4542241.9391268734
+        ],
+        [
+         -10861839.014086924,
+         4515810.5275575146
+        ],
+        [
+         -10902839.429699467,
+         4506155.1870042887
+        ],
+        [
+         -10902971.454615545,
+         4506155.1870042887
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 427,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2779,
+      "ALERT_ID": 88857,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1429935972000,
+      "START_DATE_TIME": 1429935972000,
+      "END_DATE_TIME": 1429938000000,
+      "DISPLAY_DATE_TIME": 1429938000000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": null,
+      "TEXT": "Look for hail to 1 inch diameter with a storm moving northeast.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -9597945.2341732979,
+         4556103.672275844
+        ],
+        [
+         -9601583.2664519157,
+         4579757.3705609255
+        ],
+        [
+         -9602052.7007445898,
+         4580650.9480674248
+        ],
+        [
+         -9602052.7007445898,
+         4580800.0028843414
+        ],
+        [
+         -9534923.7082115244,
+         4593170.1294820979
+        ],
+        [
+         -9532811.1982347388,
+         4557738.3907883465
+        ],
+        [
+         -9532811.1982347388,
+         4557589.8078388432
+        ],
+        [
+         -9533045.9710408244,
+         4557292.5073450524
+        ],
+        [
+         -9533163.3017841224,
+         4557292.5073450524
+        ],
+        [
+         -9597475.7998806257,
+         4556103.672275844
+        ],
+        [
+         -9597945.2341732979,
+         4556103.672275844
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 478,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2824,
+      "ALERT_ID": 89897,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1430000128000,
+      "START_DATE_TIME": 1430000128000,
+      "END_DATE_TIME": 1430003165000,
+      "DISPLAY_DATE_TIME": 1430003765000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": null,
+      "TEXT": "Canceled.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -9597945.2341732979,
+         4556103.672275844
+        ],
+        [
+         -9601583.2664519157,
+         4579757.3705609255
+        ],
+        [
+         -9602052.7007445898,
+         4580650.9480674248
+        ],
+        [
+         -9602052.7007445898,
+         4580800.0028843414
+        ],
+        [
+         -9534923.7082115244,
+         4593170.1294820979
+        ],
+        [
+         -9532811.1982347388,
+         4557738.3907883465
+        ],
+        [
+         -9532811.1982347388,
+         4557589.8078388432
+        ],
+        [
+         -9533045.9710408244,
+         4557292.5073450524
+        ],
+        [
+         -9533163.3017841224,
+         4557292.5073450524
+        ],
+        [
+         -9597475.7998806257,
+         4556103.672275844
+        ],
+        [
+         -9597945.2341732979,
+         4556103.672275844
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 480,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2824,
+      "ALERT_ID": 89897,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1430000128000,
+      "START_DATE_TIME": 1430000128000,
+      "END_DATE_TIME": 1430004600000,
+      "DISPLAY_DATE_TIME": 1430004600000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": null,
+      "TEXT": "Canceled.",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -9085662.5110188667,
+         3780714.9852137221
+        ],
+        [
+         -9144213.4462303817,
+         3791402.6404440086
+        ],
+        [
+         -9121722.7902689874,
+         3830374.7750263722
+        ],
+        [
+         -9077244.1971666049,
+         3821438.6808505678
+        ],
+        [
+         -9085662.5110188667,
+         3780714.9852137221
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 500,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2843,
+      "ALERT_ID": 90041,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1430005804000,
+      "START_DATE_TIME": 1430005804000,
+      "END_DATE_TIME": 1430009400000,
+      "DISPLAY_DATE_TIME": 1430009400000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Sarah Glenn",
+      "TEXT": "Expect wind gusts to 70 mph and hail up to 1.75 inch in diameter as a storm moves east-southeast. ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10016880.219086606,
+         3430603.3138729627
+        ],
+        [
+         -10136091.816499161,
+         3442437.3872404327
+        ],
+        [
+         -10088995.879529243,
+         3572118.5543025564
+        ],
+        [
+         -10088575.314493032,
+         3571630.2986232173
+        ],
+        [
+         -9962635.7896959111,
+         3565285.7344880863
+        ],
+        [
+         -10016880.219086606,
+         3430603.3138729627
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 560,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2886,
+      "ALERT_ID": 91155,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1430145241000,
+      "START_DATE_TIME": 1430145241000,
+      "END_DATE_TIME": 1430148600000,
+      "DISPLAY_DATE_TIME": 1430148600000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Eddie Walker",
+      "TEXT": "CANCELED ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10016880.219086606,
+         3430603.3138729627
+        ],
+        [
+         -10136091.816499161,
+         3442437.3872404327
+        ],
+        [
+         -10088995.879529243,
+         3572118.5543025564
+        ],
+        [
+         -10088575.314493032,
+         3571630.2986232173
+        ],
+        [
+         -9962635.7896959111,
+         3565285.7344880863
+        ],
+        [
+         -10016880.219086606,
+         3430603.3138729627
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 561,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2886,
+      "ALERT_ID": 91155,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1430145241000,
+      "START_DATE_TIME": 1430145241000,
+      "END_DATE_TIME": 1430150976000,
+      "DISPLAY_DATE_TIME": 1430151576000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Eddie Walker",
+      "TEXT": "CANCELED ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    },
+    {
+     "geometry": {
+      "rings": [
+       [
+        [
+         -10016880.219086606,
+         3430603.3138729627
+        ],
+        [
+         -10136091.816499161,
+         3442437.3872404327
+        ],
+        [
+         -10088995.879529243,
+         3572118.5543025564
+        ],
+        [
+         -10088575.314493032,
+         3571630.2986232173
+        ],
+        [
+         -9962635.7896959111,
+         3565285.7344880863
+        ],
+        [
+         -10016880.219086606,
+         3430603.3138729627
+        ]
+       ]
+      ]
+     },
+     "attributes": {
+      "OBJECTID": 562,
+      "CLIENT_NAME": "SkyGuard Mobile",
+      "SEQUENCE_NUMBER": 2886,
+      "ALERT_ID": 91155,
+      "POLYGON_NUMBER": 0,
+      "RECIPIENT_NAME": "SkyGuard Mobile",
+      "RECIPIENT_ID": 21319,
+      "ISSUE_DATE_TIME": 1430145241000,
+      "START_DATE_TIME": 1430145241000,
+      "END_DATE_TIME": 1430152200000,
+      "DISPLAY_DATE_TIME": 1430152200000,
+      "CLIENT_ID": 711,
+      "EVENT_TYPE": "Hail",
+      "SEVERITY": 2,
+      "CLIENT_EVENT_TYPE": "Large Hail",
+      "METEOROLOGIST_NAME": "Eddie Walker",
+      "TEXT": "CANCELED ",
+      "CONTACT_PHONE_NUMBER": "(316) 266-8000"
+     }
+    }
+   ]
+  }
+ ]
+}

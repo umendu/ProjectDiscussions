@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<measCollecFile xmlns="http://latest/nmc-omc/cmNrm.doc#measCollec" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://latest/nmc-omc/cmNrm.doc#measCollec schema\pmResultSchedule.xsd">
+    <fileHeader fileFormatVersion="32.435 V7.2" vendorName="Huawei">
+        <fileSender elementType="BSC6900 UMTS"/>
+        <measCollec beginTime="2015-07-03T14:30:00-04:00"/>
+    </fileHeader>
+    <measData>
+        <managedElement userLabel="BONRNC3531"/>
+        <measInfo measInfoId="67109395">
+            <granPeriod duration="PT1800S" endTime="2014-07-03T15:00:00-04:00"/>
+            <repPeriod duration="PT1800S"/>
+            <measTypes>67183489 67183490 67183491 67183492 67183493 67183494 67189909 67189910 67189911 67189912 67190708 67190709 67190710 67190711 73393988 73393989 73393990 73393991 73393992 73393993 73393994 73393995 73393996 73393997 73393998 73393999 73394000 73394001 73394002 73394003 73394004 73394005 73394006 73394007 73394008 73394009 73394010 73394011 73394026 73394027 73394028 73394029 73394030 73394031 73394032 73394033 </measTypes>
+            <measValue measObjLdn="BONRNC3531/UCELL_NCELL:Label=BHON43185-40959-1900-8-2, CellID=40959/BSC6900UMTS:3531/DEST Cell ID:40958">
+                <measResults>0 0 29 29 21 21 50 50 0 0 0 0 11 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </measResults>
+            </measValue>
+            <measValue measObjLdn="BONRNC3531/UCELL_NCELL:Label=BHON43185-40959-1900-8-2, CellID=40959/BSC6900UMTS:3511/DEST Cell ID:50165">
+                <measResults>0 0 10 10 2 2 12 12 0 0 0 0 4 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </measResults>
+            </measValue>
+            <measValue measObjLdn="BONRNC3531/UCELL_NCELL:Label=BHON43185-40959-1900-8-2, CellID=40959/BSC6900UMTS:3511/DEST Cell ID:63165">
+                <measResults>0 0 1 1 0 0 1 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </measResults>
+            </measValue>
+            <measValue measObjLdn="BONRNC3531/UCELL_NCELL:Label=BHON43185-40959-1900-8-2, CellID=40959/BSC6900UMTS:3511/DEST Cell ID:56507">
+                <measResults>0 0 1 1 1 1 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </measResults>
+            </measValue>
+            <measValue measObjLdn="BONRNC3531/UCELL_NCELL:Label=BHON43185-40959-1900-8-2, CellID=40959/BSC6900UMTS:3511/DEST Cell ID:56503">
+                <measResults>0 0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </measResults>
+            </measValue>
+            <measValue measObjLdn="BONRNC3531/UCELL_NCELL:Label=BHON43185-40959-1900-8-2, CellID=40959/BSC6900UMTS:3531/DEST Cell ID:49076">
+                <measResults>1 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </measResults>
+            </measValue>
+        </measInfo></measData>
+    <fileFooter>
+        <measCollec endTime="2014-07-03T15:00:00-04:00"/>
+    </fileFooter>
+</measCollecFile>
